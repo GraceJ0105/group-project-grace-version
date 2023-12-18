@@ -1,0 +1,55 @@
+main {
+  background-color: #00a8cc;
+}
+
+.footer {
+  padding: 20px;
+  background-color: #00a8cc;
+  /* position: fixed; */
+  width: 100%;
+  bottom: 0;
+}
+/* attempted to fix the position of the footer to the bottom but this is affected by content of page */
+
+.footerLinks {
+  display: flex;
+  justify-content: space-evenly; /* Center items horizontally */
+  flex-wrap: wrap;
+  width: 60%;
+  text-align: center;
+  margin: 0 auto; /* Center the container horizontally */
+}
+
+.footer a {
+  text-decoration: none;
+  font-weight: 200;
+}
+
+a:link,
+a:visited {
+  color: black;
+}
+
+a:hover {
+  color: rgba(0, 0, 0, 0.509);
+  text-decoration: underline;
+}
+
+@media (max-width: 760px) {
+  footer a {
+    font-size: 14px;
+  }
+  .footerLinks {
+    width: 80%;
+  }
+}
+
+/* Updates to CSS once mobile size breakpoint reached */
+@media (max-width: 480px) {
+  .footer a {
+    font-size: 12px;
+  }
+  .footerLinks {
+    width: 90%;
+  }
+}

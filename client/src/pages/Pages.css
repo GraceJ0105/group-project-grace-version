@@ -1,0 +1,29 @@
+main {
+  background-color: #00a8cc;
+  /* height: 85vh */
+}
+
+.fullpage {
+  height: 100vh;
+  padding: 20px;
+}
+
+.pageHeader {
+  text-align: center;
+  margin: 0;
+  font-size: 40px;
+  /* font-weight: 600; */
+  padding: 20px;
+  font-family: "Paytone One", sans-serif;
+}
+
+/* Updates to CSS once mobile size breakpoint reached */
+@media (max-width: 480px) {
+  .fullpage {
+    height: 125vh;
+    padding: 10px;
+  }
+  .pageHeader {
+    font-size: 34px;
+  }
+}

@@ -1,0 +1,31 @@
+.congratulations-container {
+  margin-top: 35px;
+}
+
+.congratulations-container p {
+  text-align: center;
+  font-weight: 700;
+  font-size: 25px;
+  margin-bottom: 0;
+}
+
+#congratsImage {
+  display: block;
+  margin: 0 auto;
+  height: 250px;
+}
+
+/* Updates to CSS once mobile size breakpoint reached */
+@media (max-width: 480px) {
+  .congratulations-container {
+    margin-top: 25px;
+  }
+
+  .congratulations-container p {
+    font-size: 20px;
+  }
+
+  #congratsImage {
+    height: 150px;
+  }
+}

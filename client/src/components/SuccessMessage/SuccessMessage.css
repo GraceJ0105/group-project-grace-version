@@ -1,0 +1,16 @@
+ul {
+  list-style: none;
+  margin-bottom: auto;
+}
+
+.successMessage {
+  margin-top: 35px;
+}
+
+
+@media (max-width: 480px) {
+  .successMessage{
+    padding: 10px 20px;
+    font-size: 14px;
+  }
+}

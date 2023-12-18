@@ -1,0 +1,36 @@
+.progressBarImg {
+  display: grid;
+  grid-template-columns: 1fr 16fr 1fr;
+  align-items: baseline;
+}
+
+.milesMessage {
+  padding-top: 30px;
+  padding-bottom: 5px;
+  font-size: 18px;
+  font-weight: 400;
+}
+
+.barIcons {
+  font-size: 25px;
+}
+
+.teamNameStyle {
+  font-weight: 600;
+}
+
+/* Updates to CSS once mobile size breakpoint reached */
+@media (max-width: 480px) {
+  .progressBarImg {
+    grid-template-columns: 2fr 10fr 2fr;
+  }
+
+  .milesMessage {
+    padding: 20px 10px 0px 10px;
+    font-size: 15px;
+  }
+
+  .barIcons {
+    font-size: 20px;
+  }
+}

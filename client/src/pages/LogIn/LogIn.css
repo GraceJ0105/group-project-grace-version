@@ -1,0 +1,107 @@
+.login-page {
+  height: 90vh;
+  font-family: sans-serif;
+  margin: 0;
+  padding-top: 65px;
+  /* overflow: hidden; */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+}
+
+.login-container {
+  display: flex;
+  flex-direction: column;
+  margin: auto;
+  background-color: whitesmoke;
+  opacity: 0.9;
+  padding-bottom: 0.5em;
+  width: calc(100% - 2rem);
+  /* Initially set the width to 100% minus 2rem for margin */
+  max-width: 550px;
+  /* Set a maximum width of 600px */
+  border-radius: 5px;
+}
+
+.login-form {
+  border: 1px solid black;
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 80%;
+}
+
+.header {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 10px;
+  width: 100%;
+  margin-top: 2em;
+}
+
+.text {
+  color: #1b0135;
+  font-size: 3rem;
+  font-weight: bold;
+}
+
+.text-underline {
+  width: 4rem;
+  height: 6px;
+  background-color: #00a8cc;
+  border-radius: 10px;
+}
+
+.form-inputs {
+  display: flex;
+  flex-direction: column;
+  margin-top: 3em;
+  gap: 1.5em;
+}
+
+.form-input {
+  display: flex;
+  align-items: center;
+  margin: auto;
+  width: 80%;
+  height: 60px;
+  background: lightgray;
+  border-radius: 5px;
+}
+
+.form-input img {
+  margin: 0 30px;
+}
+
+.form-input input {
+  height: 3rem;
+  width: 400px;
+  background: transparent;
+  /* to hide input fields */
+  border: none;
+  outline: none;
+  color: #1b0135;
+  font-size: 1.25rem;
+}
+
+.submit-container {
+  width: 80%;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  align-items: flex-end;
+  gap: 2rem;
+  margin: 40px auto;
+}
+
+/* Updates to CSS once mobile size breakpoint reached */
+@media (max-width: 480px) {
+  .login-page{
+    margin-top: 0px;
+    padding-top: 5px;
+  }
+}
